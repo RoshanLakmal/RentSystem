@@ -13,11 +13,10 @@ public class Main extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("Sample.fxml"));
-        primaryStage.setTitle("My Contacts");
+		Parent root = FXMLLoader.load(getClass().getResource("MainProgramWindow.fxml"));
+        primaryStage.setTitle("FLEXIRENT SYSTEM");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
-		
 	}
 	
 	public static void main(String[] args) {
